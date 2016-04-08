@@ -25,10 +25,7 @@ com.graphaware.module.TIMESTAMPER.1=com.travessey.module.timestamper.Timestamper
 com.graphaware.module.TIMESTAMPER.createdProperty=created
 com.graphaware.module.TIMESTAMPER.updatedProperty=updated
 ```
-
 `com.graphaware.module.TIMESTAMPER.createdProperty` and `com.graphaware.module.TIMESTAMPER.updatedProperty` are the properties names that will be used to store the assigned timestamps on nodes and relationships.
-
-3. restart Neo4j
 
 
 ##### For more information You can take a look on the <a href="https://github.com/graphaware/neo4j-uuid">GraphAware Neo4j UUID Project</a>
