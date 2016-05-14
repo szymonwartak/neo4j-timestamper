@@ -10,7 +10,7 @@ import com.graphaware.runtime.module.DeliberateTransactionRollbackException;
 import com.graphaware.tx.event.improved.api.ImprovedTransactionData;
 
 /**
- * {@link com.graphaware.runtime.module.TxDrivenModule} that assigns UUID's to nodes in the graph.
+ * {@link com.graphaware.runtime.module.TxDrivenModule} that assigns timestames to nodes and relationship in the graph.
  */
 public class TimestamperModule extends BaseTxDrivenModule<Void> {
 
@@ -20,7 +20,7 @@ public class TimestamperModule extends BaseTxDrivenModule<Void> {
     private final TimestamperConfiguration configuration;
 
     /**
-     * Construct a new UUID module.
+     * Construct a new TimestamperModule module.
      *
      * @param moduleId ID of the module.
      */

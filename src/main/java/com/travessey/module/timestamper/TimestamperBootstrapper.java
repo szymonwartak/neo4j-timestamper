@@ -9,9 +9,6 @@ import org.neo4j.graphdb.GraphDatabaseService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * Bootstraps the {@link UuidModule} in server mode.
- */
 public class TimestamperBootstrapper extends BaseRuntimeModuleBootstrapper<TimestamperConfiguration> implements RuntimeModuleBootstrapper {
 
     private static final Logger LOG = LoggerFactory.getLogger(TimestamperBootstrapper.class);
