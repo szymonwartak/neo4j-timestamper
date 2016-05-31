@@ -1,9 +1,8 @@
 neo4j-timestamper
 ===================
-Neo4J Timestamper  is a simple plugin that added time stamp to created/changed nodes and relationships
+Neo4J Timestamper  is a simple plugin that adds timestamps to created/changed nodes and relationships
 
-This plugin in bases on the <a href="https://github.com/graphaware/neo4j-uuid">neo4j-uuid</a> plugin.
-
+This plugin in bases on <a href="https://github.com/graphaware/neo4j-uuid">neo4j-uuid</a> plugin.
 thats why you will need the <a href="https://github.com/graphaware/neo4j-framework" target="_blank">GraphAware Neo4j Framework</a> (which you can <a href="http://graphaware.com/downloads/" target="_blank">download here</a>).
 
 
@@ -13,7 +12,7 @@ Setup and Configuration
 ### Server Mode
 1. Just Download <a href="https://github.com/royipressburger/neo4j-timestamper/releases/download/1.0.0/timestamper-1.0.0.jar">timestamper.jar</a> and place him and the <a href="https://github.com/graphaware/neo4j-framework" target="_blank">GraphAware Neo4j Framework</a> at the plugins directory.
 
-2. Edit neo4j.properties to register the Timestamper module:
+2. Edit neo4j.conf to register the Timestamper module:
 
 ```
 com.graphaware.runtime.enabled=true
